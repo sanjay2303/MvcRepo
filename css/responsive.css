@@ -1,0 +1,91 @@
+@media screen and (max-width: 1199px) and (min-width: 992px) { 
+.welcome-text h1{font-size: 59px;}
+.box .head{font-size: 27px;}
+.box .head.second{font-size: 27px;}
+.content-area .number{ margin:0px;}
+.content-area .number li{ margin: 0 13px 2px;}
+.gender li.male a{ background-position:57px 38px;}
+.gender li.female a{ background-position:-210px 38px;}
+.gender li.male a:hover{ background-position:57px bottom;}
+.gender li.female a:hover{ background-position:-210px bottom;}
+.hear-about li{ width: 33.33%;}
+.hear-about .tv {width: 18%;}
+.hear-about .rad {width: 22%;}
+.hear-about .other {width: 21%;}
+.box.safety.terms .head h1 {font-size: 41px;}
+}
+@media screen and (max-width: 991px) and (min-width: 768px) { 
+.welcome-text h1{font-size: 46px;}
+.box .head{font-size:20px;}
+.box .head.second{font-size: 20px;}
+.content-area{ padding: 15px;}
+.content-area .number li{ margin:0 8px 3px;}
+.gender li.male a{ background-position:43px 38px;}
+.gender li.female a{ background-position:-230px 38px;}
+.gender li.male a:hover{ background-position:43px bottom;}
+.gender li.female a:hover{ background-position:-230px bottom;}
+.hear-about li{ width: 33.33%;}
+.hear-about .tv {width: 22%;}
+.hear-about .rad a{ background-position:-842px -501px;}
+.hear-about .rad a:hover{ background-position: -1044px -501px}
+.hear-about .other a{ background-position:10px -691px;}
+.hear-about .other a:hover{ background-position: -211px -691px}
+.hear-about .rad {width: 22%;}
+.hear-about .other {width: 21%;}
+.medication li{  margin: 0 25px;}
+.box.safety.terms .head h1 {font-size: 30px;}
+.hear-about li a span{ font-size:12px;}
+.thanks p{ font-size: 40px; line-height: 55px;}
+}
+@media screen and (max-width: 767px) { 
+.wrapper { padding-bottom:50px;}
+.welcome-text h1{font-size: 46px; line-height: 53px;}
+.box.safety.terms .head h1{font-size: 35px; line-height: 41px;}
+.box .head{font-size:20px;  line-height: 26px;}
+.box .head.second{font-size: 20px;}
+.carousel-control.yellow-btn{ font-size:40px; letter-spacing:-1px;}
+.content-area{ padding: 15px;}
+.content-area{ min-height:inherit;}
+.logo{ width:100%; text-align:center;}
+.illness li{ width:100%;}
+.thanks p{font-size: 40px; line-height: 46px;}
+.box.safety .content-area{ padding: 8px 15px;}
+.box.safety .head h1{font-size: 20px; line-height: 30px;}
+.thanks h1{ font-size: 49px;}
+.thanks p {font-size: 33px; line-height: 37px;}
+.gender { float: none;  margin: auto; padding-top: 30px; text-align: center;  width: 300px;}
+.gender li{ width: 50%;}
+.gender li.male a{ background-position:38px 38px;}
+.gender li.female a{ background-position:-236px 38px;}
+.gender li.male a:hover{ background-position:38px bottom;}
+.gender li.female a:hover{ background-position:-236px bottom;}
+.content-area.enteremail input[type="text"]{ width:100%;}
+.main-section{ padding: 40px 0 20px; }
+
+.hear-about { display: inline-block; text-align: center;}
+.hear-about li {display: inline-block; float: none; min-height: 104px; text-align: center; width: 126px !important;}
+.hear-about .tv a{ background-position:-809px -328px;}
+.hear-about .rad a{ background-position:-815px -501px;}
+.hear-about .other a{ background-position: 40px -691px;}
+.hear-about .tv a:hover{ background-position:-1012px -328px;}
+.hear-about .rad a:hover{ background-position:-1018px -501px;}
+.hear-about .other a:hover{ background-position: -182px -691px;}
+}
+@media screen and (max-width: 430px) { 
+.carousel-control.yellow-btn {font-size: 30px; letter-spacing: 0;}
+.content-area .number li{ margin:0 2px 3px;}
+.medication li{  margin: 0 15px; }
+.box.safety.terms .head h1{font-size: 20px;line-height: 28px;}
+.box.safety .head h1{font-size: 20px;line-height: 28px;}
+.thanks{ width:90%;}
+.thanks h1{ font-size: 42px;}
+.thanks p {font-size: 20px; line-height: 37px;}
+.gender { width: 254px;}
+.gender li.male a{ background-position:27px 38px;}
+.gender li.female a{ background-position:-248px 38px;}
+.gender li.male a:hover{ background-position:27px bottom;}
+.gender li.female a:hover{ background-position:-248px bottom;}
+.gender li a span{ font-size:17px;}
+
+}
+

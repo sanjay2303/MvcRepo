@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+/*********>>>> Font Kits <<<<<***********/
+
+
+@font-face {
+  font-family: 'AgencyFB-Bold';
+  src: url('../fonts/AgencyFB-Bold/AgencyFB-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/AgencyFB-Bold/AgencyFB-Bold.woff') format('woff'), url('../fonts/AgencyFB-Bold/AgencyFB-Bold.ttf')  format('truetype'), url('../fonts/AgencyFB-Bold/AgencyFB-Bold.svg#AgencyFB-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuphemiaCAS';
+  src: url('../fonts/EuphemiaCAS/EuphemiaCAS.eot?#iefix') format('embedded-opentype'),  url('../fonts/EuphemiaCAS/EuphemiaCAS.woff') format('woff'), url('../fonts/EuphemiaCAS/EuphemiaCAS.ttf')  format('truetype'), url('../fonts/EuphemiaCAS/EuphemiaCAS.svg#EuphemiaCAS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***** Global reset styles *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin:0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { -webkit-font-smoothing:antialiased; margin:0px; padding:0px; font-size:13px; font-family:arial; color:#000; line-height:18px; text-decoration:none; height:100%; width:100%; display:table; overflow-x:hidden; }
+html { height:100%;  width:100%; }
+a, img { margin:0px; padding:0px; border:none; text-decoration:none; outline:none; }
+ul li{ list-style:none;}
+.clear { clear:both; }
+.left { float:left; }
+.right { float:right; }
+/*** Headings ***/
+h1 { margin:0px; padding:0px; font-size:68px; line-height:85px; font-family: 'EuphemiaCAS'; }
+h2 { margin:0px; padding:0px; font-size:17px; }
+h3 { margin:0px; padding:0px; font-size:13px; }
+h4 { margin:0px; padding:0px; font-size:16px; }
+h5 { margin:0px; padding:0px; font-size:15px; }
+h6 { margin:0px; padding:0px; font-size:12px; }
+/*** Links ***/
+a { /*color:#8d99a9;*/ text-decoration:none; }
+*:hover { transition:1s; -webkit-transition:1s; }
+/*a:hover {color:#FFEA3D;  }*/
+a:focus { outline: none; color:inherit; }
+a:hover, a:active,  a:focus { outline:none; color:inherit; text-decoration:none; }
+/*** Typography ***/
+b, strong { font-weight: bold; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+small { font-size: 85%; }
+img{ max-width:100%;}
+/*** Spacing ***/
+hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, p, table, address, fieldset, figure { margin-bottom: 10px; margin-top: 10px; }
+input[type="button"] { transition:1s; -webkit-transition:1s; }
+input[type="button"]:hover { transition:1s; -webkit-transition:1s; }
+input, button, a { outline:none;}
+/***** Global reset styles *******/
+
+.bg-1{ background:url(../images/1.jpg) no-repeat left top; background-size:cover;}
+.bg-2{ background:url(../images/2.jpg) no-repeat left top; background-size:cover;}
+.bg-3{ background:url(../images/3.jpg) no-repeat left top; background-size:cover;}
+.bg-4{ background:url(../images/4.jpg) no-repeat left top; background-size:cover;}
+.bg-5{ background:url(../images/5.jpg) no-repeat left top; background-size:cover;}
+.bg-6{ background:url(../images/6.jpg) no-repeat left top; background-size:cover;}
+.wrapper{ float:left; width:100%; height: 100%;display: table;}
+.logo{ float:right; padding-top:18px;}
+
+
+.pick-location { display: table;  margin: 4.6em auto 19.1em;}
+.pick-location .btn-default { background:#1cb4f5; color:#fff; border:none; font-size:24px; border-radius:0px;}
+.pick-location .bootstrap-select.btn-group .dropdown-toggle .caret{ border:none; background:url(../images/dwn-arw.png) no-repeat center center; width:18px; height:18px; top:37%; right:20px;}
+.pick-location .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) { width:275px;}
+.pick-location .dropdown-toggle { padding:8px 25px; font-family: 'EuphemiaCAS'; font-weight:bold; font-size:24px; letter-spacing:-1px;}
+.btn-group.open .dropdown-toggle { box-shadow:none;}
+.pick-location .open .dropdown-toggle.btn-default { background:#1cb4f5; color:#fff;}
+.pick-location .dropdown-menu.open { margin-top: 0px; padding-top:20px; background:url(../images/select-drop.png) no-repeat center center; border:none; box-shadow:none; display:block; }
+.pick-location .dropdown-menu.open:after { content:url(../images/select-drop.png); left: 38%;  position: absolute; top:2px; z-index: 2147483647;}
+.pick-location .bootstrap-select.btn-group .dropdown-menu.inner {border-radius:10px;}
+.pick-location .bootstrap-select.btn-group .dropdown-menu.inner li  {  padding:5px; border-top:1px solid #ccc; font: 14px Arial; } 
+.pick-location .bootstrap-select.btn-group .dropdown-menu.inner li:first-child { border:none;}
+.pick-location .bootstrap-select.btn-group .dropdown-menu.inner li.selected { background:url(../images/selected.png) no-repeat 93% center;}
+.pick-location .bootstrap-select.btn-group .dropdown-menu.inner li a:hover { background:none;}
+
+.main-section{ float:left; width:100%; padding:100px 0px 20px 0px;}
+.welcome-text{ text-align:center;}
+.welcome-text h1{ background:rgba(0,0,0,0.6); letter-spacing: -3px; color:#fff; font-weight:bold; font-family: 'EuphemiaCAS'; font-size:72px; text-transform:capitalize; padding:10px 25px 20px;}
+.log{ position:fixed; right:20px; bottom:20px;}
+.content{ float:left; width:100%;}
+.click-here { display:table; margin:0 auto; }
+
+.carousel-control.yellow-btn {background: #fff200; border-radius: 0; bottom:inherit; color: #000; display: inline-block; font: bold 63px/50px "AgencyFB-Bold"; left: inherit; letter-spacing: -3px; margin-left: inherit; padding: 20px 40px; right: inherit; top: inherit; transition: all 1s ease 0s; width: auto; position:inherit; float:none;}
+.carousel-control.yellow-btn:hover { background:#000; color:#fff200; transition:1s; -webkit-transition:1s;}
+
+.carousel {display: table; height: 100%; position: relative; width: 100%;}
+.carousel-inner{display: table; height: 100%;}
+.carousel-control { bottom: inherit;  color: inherit; font-size: inherit; left: inherit; opacity: inherit; position: absolute; text-align: center; text-shadow: none; top: 0; width: auto;}
+
+.carousel-control.back {background: #fff200; border-radius: 0; bottom:0%; color: #000; display: inline-block; font: bold 43px/35px "AgencyFB-Bold"; left:inherit; letter-spacing:0px; margin-left:0px; padding: 14px 24px; right: inherit; top: inherit; transition: all 1s ease 0s; width: auto; position:inherit; margin-top:10px;}
+.carousel-control.back:hover { background:#000; color:#fff200; transition:1s; -webkit-transition:1s;}
+.carousel-inner > .item{ height: 100%; width: 100%; position:absolute;}
+.box .head{ background-color:#39ace3; font-family: 'EuphemiaCAS'; font-size:32px; padding:20px 15px; color:#fff; float:left; width:100%;}
+.content-area{ float:left; width:100%;background:rgba(255,255,255,0.7); padding:30px 30px; min-height:342px; margin-bottom:30px; }
+.content-area.formedi{ min-height: 370px;}
+.content-area.forsmallcheck{ min-height: 180px;}
+.content-area.forsmallcheck .medication{ padding-top:27px;}
+.content-area label{ font:bold 21px/21px Arial, Helvetica, sans-serif; color:#000; padding-bottom:8px;}
+.content-area label em{ color:#ff0000;}
+.content-area input[type=text]{ height:46px; border-radius:0px; border-color:#dddddd; box-shadow:none; }
+.content-area select{ height:46px; border-radius:0px; border-color:#dddddd; box-shadow:none; }
+.content-area .form-group{ margin-bottom:20px;}
+.content-area .number{ float:left; width:100%; text-align:center; display:inline-block;}
+.content-area .number li{ display:inline-block; text-align:center; margin:0 13px 13px;}
+.content-area .number li a{ background-color:#fff200;font:bold 21px/21px Arial, Helvetica, sans-serif; float:left; color:#000;  width:79px; height:48px;   padding-top: 14px;}
+.content-area .number li a:hover{ color:#fff; background-color:#000;}
+.content-area .number li:last-child a{color:#fff; background-color:#000;}
+.content-area .number li:last-child a:hover{color:#000; background-color:#fff200;}
+.next-page{ margin-top:20px; float:left; width:100%; }
+.next-page a{font: bold 48px/50px "AgencyFB-Bold"; left: inherit; letter-spacing: -3px; color:#000000; text-transform:uppercase;}
+.gender{ text-align:center; width:100%; float:left; padding-top:30px;}
+.gender li{ width:50%; float:left; text-align:center;    padding: 0 20px;}
+.gender li a{ text-decoration:none;}
+.gender li a span{ width:100%; float:left; font:bold 21px/21px Arial, Helvetica, sans-serif; color:#000; padding-bottom:15px;}
+.map{ text-align:center;}
+.gender li.male a{ background:url(../images/gender.png) no-repeat 85px 38px;float: left;
+    padding-bottom: 104px;
+    width: 100%;
+}
+.gender li.female a{background:url(../images/gender.png) no-repeat -189px 38px;float: left;
+    padding-bottom: 104px;
+    width: 100%;
+}
+.gender li.male a:hover{background:url(../images/gender.png) no-repeat  85px bottom;}
+.gender li.female a:hover{background:url(../images/gender.png) no-repeat -189px bottom;}
+.hear-about li{float:left; width:25%; text-align:center;min-height:104px;}
+.hear-about li a{ float:left; width:100%; text-align:center; padding-top: 49px;}
+.hear-about li a span{ float:left; width:100%; font:bold 14px/18px Arial, Helvetica, sans-serif;color:#000;}
+.hear-about .tour a{ background:url(../images/sprite.png) no-repeat 48px 0px;}
+.hear-about .concierg a{background:url(../images/sprite.png) no-repeat 39px -156px;}
+.hear-about .brochure a{background:url(../images/sprite.png) no-repeat 39px -327px;}
+.hear-about .web a{background:url(../images/sprite.png) no-repeat 39px -501px;}
+.hear-about .trip a{background:url(../images/sprite.png) no-repeat -402px 0px;}
+.hear-about .mouth a{background:url(../images/sprite.png) no-repeat -366px -157px ;}
+.hear-about .flying a{background:url(../images/sprite.png) no-repeat -366px -317px ;}
+.hear-about .print a{background:url(../images/sprite.png) no-repeat -361px -500px;}
+.hear-about .social a{background:url(../images/sprite.png) no-repeat -820px 9px;}
+.hear-about .vehical a{background:url(../images/sprite.png) no-repeat -820px -158px;}
+.hear-about .tv a{background:url(../images/sprite.png) no-repeat -836px -328px;}
+.hear-about .rad a{background:url(../images/sprite.png) no-repeat -836px -501px;}
+.hear-about .other a{background:url(../images/sprite.png) no-repeat 18px -691px;}
+
+.hear-about .tour a:hover{ background:url(../images/sprite.png) no-repeat -175px 0px;}
+.hear-about .concierg a:hover{background:url(../images/sprite.png) no-repeat -182px -156px;}
+.hear-about .brochure a:hover{background:url(../images/sprite.png) no-repeat -182px -327px;}
+.hear-about .web a:hover{background:url(../images/sprite.png) no-repeat -182px -501px;}
+.hear-about .trip a:hover{background:url(../images/sprite.png) no-repeat -402px 0px;}
+.hear-about .mouth a:hover{background:url(../images/sprite.png) no-repeat -564px -157px ;}
+.hear-about .flying a:hover{background:url(../images/sprite.png) no-repeat -574px -317px ;}
+.hear-about .print a:hover{background:url(../images/sprite.png) no-repeat -566px -500px;}
+.hear-about .social a:hover{background:url(../images/sprite.png) no-repeat -1017px 9px;}
+.hear-about .vehical a:hover{background:url(../images/sprite.png) no-repeat -1021px -158px;}
+.hear-about .tv a:hover{background:url(../images/sprite.png) no-repeat -1036px -328px;}
+.hear-about .rad a:hover{background:url(../images/sprite.png) no-repeat -1036px -501px;}
+.hear-about .other a:hover{background:url(../images/sprite.png) no-repeat -204px -691px;}
+
+.hear-about .tv{width: 15%;}
+.hear-about .rad{width: 17%;}
+.hear-about .other{width: 17%;}
+.box .head.second{ font-size: 28px; line-height: 28px;}
+.medication {float: left; padding-top: 114px; width: 100%; text-align: center; display:inline-block;}
+.medication li{   display: inline-block;
+    float: none;
+    margin: 0 34px;
+    text-align: center;}
+.medication li a{ font:bold 21px/21px Arial, Helvetica, sans-serif; color:#000; float:left; padding:12px 0px 12px 63px;}
+.medication li.yes a{ background:url(../images/tick.png) no-repeat left 0px; }
+.medication li.yes a:hover{background:url(../images/tick.png) no-repeat left bottom;}
+.medication li.no a:hover{background:url(../images/tick.png) no-repeat left bottom;}
+.medication li.no a{background:url(../images/tick.png) no-repeat left 0px;}
+
+.illness{ float:left; width:100%;}
+.illness li{ float:left; width:50%; padding:15px;}
+.illness li a{ float:left; width:100%; padding:21px 20px; background-color:#fff200; font:bold 22px/21px Arial, Helvetica, sans-serif; color:#000;}
+
+.box.safety .head{ background:rgba(57,172,227,0.9);  margin-bottom:12px; padding:0px 32px ;}
+.box.safety .head h1{font-family: 'EuphemiaCAS'; font-size:56px;}
+.box.safety .content-area { margin-bottom:10px; min-height:inherit; padding:8px 30px;}
+.box.safety .content-area p{font: 16px/25px Arial, Helvetica, sans-serif; color:#000;}
+.box.safety .content-area ul li{ float:left; width:100%; margin-bottom:12px; font: 16px/30px Arial, Helvetica, sans-serif; color:#000;}
+.box.safety .content-area ul li .fa{ font-size:16px; color:#0b9623;}
+.box.safety .content-area label{ font:bold 14px/17px Arial, Helvetica, sans-serif; color:#0b9623; }
+.box.safety .content-area label input[type=checkbox]{ float:left; margin-right:10px;}
+.box.safety  .content-area.small{ padding-bottom:0px;}
+.box.safety  .content-area label input {float: left; height: 10px; margin-bottom: 20px; margin-right: 13px;}
+
+.content-area p span.green{ color:#0b9623; font-weight:bold;}
+.box.safety.terms .head h1{font-size: 49px;}
+.box.safety.terms .content-area label{ line-height:22px;}
+.box.safety.terms .content-area label input{ margin-bottom: 2px;}
+
+.content-area.enteremail h6{ font:bold 16px/25px Arial, Helvetica, sans-serif; color:#000;}
+.content-area.enteremail label { font:bold 14px/17px Arial, Helvetica, sans-serif; color:#0b9623;}
+.content-area.enteremail input[type=text]{ width:50%; margin-top:5px;}
+
+.thanks{ width:80%; margin:auto;background:rgba(57,172,227,0.9); text-align:center; padding:50px 0px; }
+.thanks h1{font-family: 'EuphemiaCAS'; font-size:79px; color:#fff; line-height:80px;}
+.thanks p{font-family: 'EuphemiaCAS'; font-size:49px;  color:#fff; line-height:77px;}
+
+
+
+
+
