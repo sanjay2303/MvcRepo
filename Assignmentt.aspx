@@ -19,6 +19,7 @@
 
         function Drag(vs) {
             vs.dataTransfer.setData("text", vs.target.id);
+			var iList="";
         }
 
         function Drop(vs) {
