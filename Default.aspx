@@ -19,6 +19,7 @@
                 var left = $(this).position().left;
                 $(this).data('orgTop', top);
                 $(this).data('orgLeft', left);
+				var new1=2;
             });
 
             $("#droppable").droppable({
